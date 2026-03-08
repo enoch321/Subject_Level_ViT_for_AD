@@ -480,3 +480,526 @@ F1-Score : 78.64 ± 4.69 %
 Sensitivity: 59.26 ± 6.64 %
 Specificity: 94.33 ± 3.40 %
 ========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_0_151
+[1/70] 151) LR 0.0000100, Loss: 0.603, Acc 61.61%, N 607, Test Acc 63.16%, Bal acc 50.00%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_1_302
+[2/70] 302) LR 0.0000100, Loss: 0.549, Acc 65.57%, N 607, Test Acc 64.47%, Bal acc 51.79%
+[3/70] 453) LR 0.0000100, Loss: 0.523, Acc 70.18%, N 607, Test Acc 64.47%, Bal acc 51.79%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_3_604
+[4/70] 604) LR 0.0000100, Loss: 0.531, Acc 66.56%, N 607, Test Acc 69.08%, Bal acc 60.64%
+[5/70] 755) LR 0.0000099, Loss: 0.467, Acc 75.62%, N 607, Test Acc 68.42%, Bal acc 57.89%
+[6/70] 906) LR 0.0000099, Loss: 0.471, Acc 73.64%, N 607, Test Acc 67.76%, Bal acc 65.92%
+[7/70] 1057) LR 0.0000098, Loss: 0.424, Acc 77.27%, N 607, Test Acc 66.45%, Bal acc 67.11%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_7_1208
+[8/70] 1208) LR 0.0000098, Loss: 0.435, Acc 75.12%, N 607, Test Acc 71.71%, Bal acc 63.10%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_8_1359
+[9/70] 1359) LR 0.0000097, Loss: 0.388, Acc 79.74%, N 607, Test Acc 78.29%, Bal acc 76.12%
+[10/70] 1510) LR 0.0000096, Loss: 0.390, Acc 78.42%, N 607, Test Acc 73.68%, Bal acc 66.52%
+[11/70] 1661) LR 0.0000095, Loss: 0.340, Acc 81.05%, N 607, Test Acc 75.00%, Bal acc 69.42%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_11_1812
+[12/70] 1812) LR 0.0000094, Loss: 0.332, Acc 83.03%, N 607, Test Acc 80.26%, Bal acc 79.54%
+[13/70] 1963) LR 0.0000093, Loss: 0.302, Acc 85.50%, N 607, Test Acc 80.26%, Bal acc 76.56%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_13_2114
+[14/70] 2114) LR 0.0000092, Loss: 0.290, Acc 84.51%, N 607, Test Acc 80.92%, Bal acc 77.83%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_14_2265
+[15/70] 2265) LR 0.0000090, Loss: 0.265, Acc 85.67%, N 607, Test Acc 84.21%, Bal acc 82.66%
+[16/70] 2416) LR 0.0000089, Loss: 0.247, Acc 85.83%, N 607, Test Acc 83.55%, Bal acc 81.03%
+[17/70] 2567) LR 0.0000088, Loss: 0.290, Acc 85.67%, N 607, Test Acc 76.32%, Bal acc 68.97%
+[18/70] 2718) LR 0.0000086, Loss: 0.267, Acc 86.66%, N 607, Test Acc 75.66%, Bal acc 68.45%
+[19/70] 2869) LR 0.0000085, Loss: 0.221, Acc 88.96%, N 607, Test Acc 75.00%, Bal acc 69.05%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_19_3020
+[20/70] 3020) LR 0.0000083, Loss: 0.230, Acc 89.29%, N 607, Test Acc 84.87%, Bal acc 83.93%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_20_3171
+[21/70] 3171) LR 0.0000081, Loss: 0.191, Acc 91.10%, N 607, Test Acc 85.53%, Bal acc 84.08%
+[22/70] 3322) LR 0.0000079, Loss: 0.211, Acc 88.80%, N 607, Test Acc 84.87%, Bal acc 85.04%
+[23/70] 3473) LR 0.0000078, Loss: 0.178, Acc 90.44%, N 607, Test Acc 83.55%, Bal acc 80.65%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_23_3624
+[24/70] 3624) LR 0.0000076, Loss: 0.208, Acc 89.29%, N 607, Test Acc 86.18%, Bal acc 87.95%
+[25/70] 3775) LR 0.0000074, Loss: 0.162, Acc 92.59%, N 607, Test Acc 83.55%, Bal acc 80.28%
+[26/70] 3926) LR 0.0000072, Loss: 0.184, Acc 92.42%, N 607, Test Acc 81.58%, Bal acc 77.60%
+[27/70] 4077) LR 0.0000070, Loss: 0.180, Acc 91.10%, N 607, Test Acc 80.26%, Bal acc 76.19%
+[28/70] 4228) LR 0.0000068, Loss: 0.144, Acc 93.08%, N 607, Test Acc 82.89%, Bal acc 80.13%
+[29/70] 4379) LR 0.0000065, Loss: 0.174, Acc 90.94%, N 607, Test Acc 83.55%, Bal acc 81.03%
+[30/70] 4530) LR 0.0000063, Loss: 0.162, Acc 91.60%, N 607, Test Acc 84.87%, Bal acc 83.18%
+[31/70] 4681) LR 0.0000061, Loss: 0.147, Acc 92.75%, N 607, Test Acc 81.58%, Bal acc 78.72%
+[32/70] 4832) LR 0.0000059, Loss: 0.115, Acc 94.40%, N 607, Test Acc 83.55%, Bal acc 81.40%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_32_4983
+[33/70] 4983) LR 0.0000057, Loss: 0.123, Acc 94.89%, N 607, Test Acc 89.47%, Bal acc 89.43%
+[34/70] 5134) LR 0.0000054, Loss: 0.145, Acc 92.59%, N 607, Test Acc 88.82%, Bal acc 88.54%
+[35/70] 5285) LR 0.0000052, Loss: 0.123, Acc 94.89%, N 607, Test Acc 83.55%, Bal acc 80.28%
+[36/70] 5436) LR 0.0000050, Loss: 0.146, Acc 92.42%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[37/70] 5587) LR 0.0000048, Loss: 0.105, Acc 94.73%, N 607, Test Acc 80.92%, Bal acc 76.71%
+[38/70] 5738) LR 0.0000046, Loss: 0.117, Acc 95.39%, N 607, Test Acc 83.55%, Bal acc 81.03%
+[39/70] 5889) LR 0.0000043, Loss: 0.110, Acc 95.39%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[40/70] 6040) LR 0.0000041, Loss: 0.121, Acc 94.40%, N 607, Test Acc 86.18%, Bal acc 84.60%
+[41/70] 6191) LR 0.0000039, Loss: 0.105, Acc 94.56%, N 607, Test Acc 86.18%, Bal acc 84.60%
+[42/70] 6342) LR 0.0000037, Loss: 0.142, Acc 93.41%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[43/70] 6493) LR 0.0000035, Loss: 0.129, Acc 93.57%, N 607, Test Acc 84.21%, Bal acc 81.92%
+[44/70] 6644) LR 0.0000032, Loss: 0.102, Acc 94.89%, N 607, Test Acc 82.89%, Bal acc 80.13%
+[45/70] 6795) LR 0.0000030, Loss: 0.091, Acc 95.06%, N 607, Test Acc 82.24%, Bal acc 79.24%
+[46/70] 6946) LR 0.0000028, Loss: 0.091, Acc 95.88%, N 607, Test Acc 84.21%, Bal acc 81.92%
+[47/70] 7097) LR 0.0000026, Loss: 0.089, Acc 95.55%, N 607, Test Acc 82.89%, Bal acc 80.13%
+[48/70] 7248) LR 0.0000024, Loss: 0.106, Acc 95.22%, N 607, Test Acc 84.21%, Bal acc 81.92%
+[49/70] 7399) LR 0.0000022, Loss: 0.096, Acc 95.39%, N 607, Test Acc 84.21%, Bal acc 81.92%
+[50/70] 7550) LR 0.0000021, Loss: 0.091, Acc 95.55%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[51/70] 7701) LR 0.0000019, Loss: 0.066, Acc 96.54%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[52/70] 7852) LR 0.0000017, Loss: 0.067, Acc 96.71%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[53/70] 8003) LR 0.0000015, Loss: 0.099, Acc 94.89%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[54/70] 8154) LR 0.0000014, Loss: 0.098, Acc 95.72%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[55/70] 8305) LR 0.0000012, Loss: 0.084, Acc 95.88%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[56/70] 8456) LR 0.0000011, Loss: 0.107, Acc 94.40%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[57/70] 8607) LR 0.0000010, Loss: 0.080, Acc 96.38%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[58/70] 8758) LR 0.0000008, Loss: 0.060, Acc 96.71%, N 607, Test Acc 86.18%, Bal acc 84.60%
+[59/70] 8909) LR 0.0000007, Loss: 0.078, Acc 96.21%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[60/70] 9060) LR 0.0000006, Loss: 0.068, Acc 96.87%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[61/70] 9211) LR 0.0000005, Loss: 0.075, Acc 96.38%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[62/70] 9362) LR 0.0000004, Loss: 0.079, Acc 96.54%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[63/70] 9513) LR 0.0000003, Loss: 0.055, Acc 96.54%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[64/70] 9664) LR 0.0000002, Loss: 0.085, Acc 96.05%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[65/70] 9815) LR 0.0000002, Loss: 0.072, Acc 95.72%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[66/70] 9966) LR 0.0000001, Loss: 0.078, Acc 95.88%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[67/70] 10117) LR 0.0000001, Loss: 0.081, Acc 96.21%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[68/70] 10268) LR 0.0000000, Loss: 0.083, Acc 95.39%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[69/70] 10419) LR 0.0000000, Loss: 0.067, Acc 97.03%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[70/70] 10570) LR 0.0000000, Loss: 0.061, Acc 96.21%, N 607, Test Acc 85.53%, Bal acc 83.71%
+BEST_MODEL_ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_0_032_004983.pth.tar  found and loaded.
+TESTING: Acc 89.47%, Bal ACC 89.43%, AUC 92.58%, F1 88.85%, SEN 89.29%, SPE 89.58%
+Fold 1: 
+Train: 607, Test: 152
+Train balance: Group
+CN    382
+AD    225
+Name: count, dtype: int64
+Test balance: Group
+CN    96
+AD    56
+Name: count, dtype: int64
+760 nii files found.
+Train dataset len: 607
+Test dataset len: 152
+Number of classes to be used: ['CN', 'AD'], 2
+Train labels ratio: {'CN': 382, 'AD': 225}, Test labels ratio: {'CN': 96, 'AD': 56}
+Train ratios (%): [62.93, 37.07], Test ratios (%): [63.16, 36.84]
+Model weights initialized
+Loaded pre-trained checkpoint from: ./ViT_B_pretrained_noaug_mae75_BRATS2023_IXI_OASIS3_seed_8456_999_077000.pth.tar
+['head.weight', 'head.bias']
+Num of parameters in the model: 88598786
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_0_151
+[1/70] 151) LR 0.0000100, Loss: 0.612, Acc 61.94%, N 607, Test Acc 63.16%, Bal acc 50.00%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_1_302
+[2/70] 302) LR 0.0000100, Loss: 0.561, Acc 63.92%, N 607, Test Acc 65.13%, Bal acc 52.68%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_2_453
+[3/70] 453) LR 0.0000100, Loss: 0.536, Acc 68.70%, N 607, Test Acc 66.45%, Bal acc 54.46%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_3_604
+[4/70] 604) LR 0.0000100, Loss: 0.507, Acc 70.51%, N 607, Test Acc 75.00%, Bal acc 70.54%
+[5/70] 755) LR 0.0000099, Loss: 0.457, Acc 72.98%, N 607, Test Acc 74.34%, Bal acc 67.41%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_5_906
+[6/70] 906) LR 0.0000099, Loss: 0.440, Acc 76.28%, N 607, Test Acc 80.26%, Bal acc 78.79%
+[7/70] 1057) LR 0.0000098, Loss: 0.430, Acc 77.10%, N 607, Test Acc 78.29%, Bal acc 76.86%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_7_1208
+[8/70] 1208) LR 0.0000098, Loss: 0.424, Acc 77.92%, N 607, Test Acc 80.92%, Bal acc 77.08%
+[9/70] 1359) LR 0.0000097, Loss: 0.359, Acc 79.41%, N 607, Test Acc 78.95%, Bal acc 73.29%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_9_1510
+[10/70] 1510) LR 0.0000096, Loss: 0.337, Acc 82.21%, N 607, Test Acc 82.89%, Bal acc 82.37%
+[11/70] 1661) LR 0.0000095, Loss: 0.308, Acc 85.01%, N 607, Test Acc 82.89%, Bal acc 82.37%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_11_1812
+[12/70] 1812) LR 0.0000094, Loss: 0.305, Acc 84.68%, N 607, Test Acc 83.55%, Bal acc 81.03%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_12_1963
+[13/70] 1963) LR 0.0000093, Loss: 0.267, Acc 86.82%, N 607, Test Acc 84.87%, Bal acc 82.81%
+[14/70] 2114) LR 0.0000092, Loss: 0.259, Acc 87.48%, N 607, Test Acc 82.89%, Bal acc 78.27%
+[15/70] 2265) LR 0.0000090, Loss: 0.241, Acc 89.29%, N 607, Test Acc 82.24%, Bal acc 82.59%
+[16/70] 2416) LR 0.0000089, Loss: 0.245, Acc 86.49%, N 607, Test Acc 82.89%, Bal acc 81.25%
+[17/70] 2567) LR 0.0000088, Loss: 0.232, Acc 87.31%, N 607, Test Acc 83.55%, Bal acc 79.17%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_17_2718
+[18/70] 2718) LR 0.0000086, Loss: 0.237, Acc 88.63%, N 607, Test Acc 86.84%, Bal acc 84.38%
+[19/70] 2869) LR 0.0000085, Loss: 0.236, Acc 88.80%, N 607, Test Acc 86.18%, Bal acc 84.97%
+[20/70] 3020) LR 0.0000083, Loss: 0.211, Acc 89.13%, N 607, Test Acc 80.92%, Bal acc 79.69%
+[21/70] 3171) LR 0.0000081, Loss: 0.183, Acc 91.10%, N 607, Test Acc 82.89%, Bal acc 79.76%
+[22/70] 3322) LR 0.0000079, Loss: 0.211, Acc 90.12%, N 607, Test Acc 83.55%, Bal acc 82.14%
+[23/70] 3473) LR 0.0000078, Loss: 0.168, Acc 90.61%, N 607, Test Acc 84.21%, Bal acc 83.41%
+[24/70] 3624) LR 0.0000076, Loss: 0.215, Acc 89.29%, N 607, Test Acc 83.55%, Bal acc 82.51%
+[25/70] 3775) LR 0.0000074, Loss: 0.178, Acc 91.10%, N 607, Test Acc 84.87%, Bal acc 83.93%
+[26/70] 3926) LR 0.0000072, Loss: 0.166, Acc 92.09%, N 607, Test Acc 84.87%, Bal acc 81.32%
+[27/70] 4077) LR 0.0000070, Loss: 0.157, Acc 92.42%, N 607, Test Acc 84.87%, Bal acc 83.56%
+[28/70] 4228) LR 0.0000068, Loss: 0.191, Acc 90.12%, N 607, Test Acc 80.26%, Bal acc 81.77%
+[29/70] 4379) LR 0.0000065, Loss: 0.137, Acc 93.08%, N 607, Test Acc 81.58%, Bal acc 80.95%
+[30/70] 4530) LR 0.0000063, Loss: 0.154, Acc 92.42%, N 607, Test Acc 83.55%, Bal acc 81.03%
+[31/70] 4681) LR 0.0000061, Loss: 0.134, Acc 94.07%, N 607, Test Acc 84.87%, Bal acc 82.44%
+[32/70] 4832) LR 0.0000059, Loss: 0.155, Acc 92.26%, N 607, Test Acc 84.21%, Bal acc 82.29%
+[33/70] 4983) LR 0.0000057, Loss: 0.136, Acc 92.75%, N 607, Test Acc 85.53%, Bal acc 82.22%
+[34/70] 5134) LR 0.0000054, Loss: 0.118, Acc 94.73%, N 607, Test Acc 84.87%, Bal acc 81.70%
+[35/70] 5285) LR 0.0000052, Loss: 0.134, Acc 93.90%, N 607, Test Acc 84.87%, Bal acc 82.07%
+[36/70] 5436) LR 0.0000050, Loss: 0.144, Acc 92.75%, N 607, Test Acc 85.53%, Bal acc 82.59%
+[37/70] 5587) LR 0.0000048, Loss: 0.125, Acc 93.41%, N 607, Test Acc 82.24%, Bal acc 82.96%
+[38/70] 5738) LR 0.0000046, Loss: 0.119, Acc 95.06%, N 607, Test Acc 83.55%, Bal acc 82.14%
+[39/70] 5889) LR 0.0000043, Loss: 0.134, Acc 93.74%, N 607, Test Acc 83.55%, Bal acc 81.03%
+[40/70] 6040) LR 0.0000041, Loss: 0.103, Acc 94.89%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[41/70] 6191) LR 0.0000039, Loss: 0.104, Acc 95.88%, N 607, Test Acc 86.84%, Bal acc 83.63%
+[42/70] 6342) LR 0.0000037, Loss: 0.086, Acc 95.88%, N 607, Test Acc 86.18%, Bal acc 83.85%
+[43/70] 6493) LR 0.0000035, Loss: 0.114, Acc 94.40%, N 607, Test Acc 86.84%, Bal acc 83.63%
+[44/70] 6644) LR 0.0000032, Loss: 0.101, Acc 95.06%, N 607, Test Acc 86.18%, Bal acc 82.74%
+[45/70] 6795) LR 0.0000030, Loss: 0.081, Acc 96.21%, N 607, Test Acc 86.84%, Bal acc 83.63%
+[46/70] 6946) LR 0.0000028, Loss: 0.101, Acc 94.73%, N 607, Test Acc 86.84%, Bal acc 84.00%
+[47/70] 7097) LR 0.0000026, Loss: 0.088, Acc 96.05%, N 607, Test Acc 85.53%, Bal acc 83.33%
+[48/70] 7248) LR 0.0000024, Loss: 0.081, Acc 96.38%, N 607, Test Acc 84.87%, Bal acc 82.44%
+[49/70] 7399) LR 0.0000022, Loss: 0.087, Acc 95.72%, N 607, Test Acc 82.89%, Bal acc 81.25%
+[50/70] 7550) LR 0.0000021, Loss: 0.075, Acc 95.22%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[51/70] 7701) LR 0.0000019, Loss: 0.091, Acc 96.38%, N 607, Test Acc 81.58%, Bal acc 80.95%
+[52/70] 7852) LR 0.0000017, Loss: 0.087, Acc 96.54%, N 607, Test Acc 81.58%, Bal acc 80.58%
+[53/70] 8003) LR 0.0000015, Loss: 0.076, Acc 96.21%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[54/70] 8154) LR 0.0000014, Loss: 0.087, Acc 95.72%, N 607, Test Acc 83.55%, Bal acc 81.03%
+[55/70] 8305) LR 0.0000012, Loss: 0.068, Acc 96.71%, N 607, Test Acc 84.87%, Bal acc 81.70%
+[56/70] 8456) LR 0.0000011, Loss: 0.067, Acc 97.20%, N 607, Test Acc 84.87%, Bal acc 82.07%
+[57/70] 8607) LR 0.0000010, Loss: 0.064, Acc 97.20%, N 607, Test Acc 84.21%, Bal acc 81.55%
+[58/70] 8758) LR 0.0000008, Loss: 0.080, Acc 95.39%, N 607, Test Acc 84.87%, Bal acc 82.07%
+[59/70] 8909) LR 0.0000007, Loss: 0.052, Acc 97.53%, N 607, Test Acc 85.53%, Bal acc 83.33%
+[60/70] 9060) LR 0.0000006, Loss: 0.078, Acc 96.71%, N 607, Test Acc 84.21%, Bal acc 81.55%
+[61/70] 9211) LR 0.0000005, Loss: 0.070, Acc 95.39%, N 607, Test Acc 84.21%, Bal acc 81.55%
+[62/70] 9362) LR 0.0000004, Loss: 0.077, Acc 95.88%, N 607, Test Acc 84.21%, Bal acc 81.92%
+[63/70] 9513) LR 0.0000003, Loss: 0.070, Acc 96.71%, N 607, Test Acc 84.21%, Bal acc 81.55%
+[64/70] 9664) LR 0.0000002, Loss: 0.092, Acc 95.22%, N 607, Test Acc 84.21%, Bal acc 81.92%
+[65/70] 9815) LR 0.0000002, Loss: 0.062, Acc 97.20%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[66/70] 9966) LR 0.0000001, Loss: 0.086, Acc 95.72%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[67/70] 10117) LR 0.0000001, Loss: 0.057, Acc 96.87%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[68/70] 10268) LR 0.0000000, Loss: 0.096, Acc 94.56%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[69/70] 10419) LR 0.0000000, Loss: 0.075, Acc 95.88%, N 607, Test Acc 83.55%, Bal acc 81.40%
+[70/70] 10570) LR 0.0000000, Loss: 0.065, Acc 96.71%, N 607, Test Acc 83.55%, Bal acc 81.40%
+BEST_MODEL_ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_1_017_002718.pth.tar  found and loaded.
+TESTING: Acc 86.84%, Bal ACC 84.38%, AUC 93.47%, F1 85.38%, SEN 75.00%, SPE 93.75%
+Fold 2: 
+Train: 607, Test: 152
+Train balance: Group
+CN    382
+AD    225
+Name: count, dtype: int64
+Test balance: Group
+CN    96
+AD    56
+Name: count, dtype: int64
+760 nii files found.
+Train dataset len: 607
+Test dataset len: 152
+Number of classes to be used: ['CN', 'AD'], 2
+Train labels ratio: {'CN': 382, 'AD': 225}, Test labels ratio: {'CN': 96, 'AD': 56}
+Train ratios (%): [62.93, 37.07], Test ratios (%): [63.16, 36.84]
+Model weights initialized
+Loaded pre-trained checkpoint from: ./ViT_B_pretrained_noaug_mae75_BRATS2023_IXI_OASIS3_seed_8456_999_077000.pth.tar
+['head.weight', 'head.bias']
+Num of parameters in the model: 88598786
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_0_151
+[1/70] 151) LR 0.0000100, Loss: 0.604, Acc 63.10%, N 607, Test Acc 63.16%, Bal acc 50.00%
+[2/70] 302) LR 0.0000100, Loss: 0.574, Acc 62.11%, N 607, Test Acc 63.16%, Bal acc 50.00%
+[3/70] 453) LR 0.0000100, Loss: 0.551, Acc 64.42%, N 607, Test Acc 63.16%, Bal acc 50.00%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_3_604
+[4/70] 604) LR 0.0000100, Loss: 0.536, Acc 67.22%, N 607, Test Acc 74.34%, Bal acc 65.92%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_4_755
+[5/70] 755) LR 0.0000099, Loss: 0.517, Acc 68.86%, N 607, Test Acc 76.32%, Bal acc 71.21%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_5_906
+[6/70] 906) LR 0.0000099, Loss: 0.491, Acc 71.83%, N 607, Test Acc 78.29%, Bal acc 75.00%
+[7/70] 1057) LR 0.0000098, Loss: 0.431, Acc 74.96%, N 607, Test Acc 78.29%, Bal acc 73.14%
+[8/70] 1208) LR 0.0000098, Loss: 0.412, Acc 78.25%, N 607, Test Acc 78.29%, Bal acc 72.40%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_8_1359
+[9/70] 1359) LR 0.0000097, Loss: 0.430, Acc 77.76%, N 607, Test Acc 84.21%, Bal acc 81.55%
+[10/70] 1510) LR 0.0000096, Loss: 0.368, Acc 79.90%, N 607, Test Acc 82.89%, Bal acc 79.02%
+[11/70] 1661) LR 0.0000095, Loss: 0.330, Acc 84.18%, N 607, Test Acc 82.24%, Bal acc 78.87%
+[12/70] 1812) LR 0.0000094, Loss: 0.335, Acc 81.71%, N 607, Test Acc 79.61%, Bal acc 73.07%
+[13/70] 1963) LR 0.0000093, Loss: 0.294, Acc 85.17%, N 607, Test Acc 80.92%, Bal acc 80.06%
+[14/70] 2114) LR 0.0000092, Loss: 0.245, Acc 88.30%, N 607, Test Acc 79.61%, Bal acc 73.81%
+[15/70] 2265) LR 0.0000090, Loss: 0.272, Acc 85.83%, N 607, Test Acc 79.61%, Bal acc 77.53%
+[16/70] 2416) LR 0.0000089, Loss: 0.232, Acc 87.81%, N 607, Test Acc 83.55%, Bal acc 82.14%
+[17/70] 2567) LR 0.0000088, Loss: 0.234, Acc 86.66%, N 607, Test Acc 82.89%, Bal acc 79.76%
+[18/70] 2718) LR 0.0000086, Loss: 0.260, Acc 86.99%, N 607, Test Acc 83.55%, Bal acc 79.54%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_18_2869
+[19/70] 2869) LR 0.0000085, Loss: 0.252, Acc 87.48%, N 607, Test Acc 85.53%, Bal acc 82.22%
+[20/70] 3020) LR 0.0000083, Loss: 0.207, Acc 91.27%, N 607, Test Acc 84.21%, Bal acc 84.52%
+[21/70] 3171) LR 0.0000081, Loss: 0.177, Acc 90.94%, N 607, Test Acc 84.21%, Bal acc 80.43%
+[22/70] 3322) LR 0.0000079, Loss: 0.187, Acc 89.95%, N 607, Test Acc 84.21%, Bal acc 80.80%
+[23/70] 3473) LR 0.0000078, Loss: 0.194, Acc 90.44%, N 607, Test Acc 85.53%, Bal acc 82.96%
+[24/70] 3624) LR 0.0000076, Loss: 0.202, Acc 89.46%, N 607, Test Acc 83.55%, Bal acc 84.75%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_24_3775
+[25/70] 3775) LR 0.0000074, Loss: 0.199, Acc 91.10%, N 607, Test Acc 86.84%, Bal acc 85.86%
+[26/70] 3926) LR 0.0000072, Loss: 0.176, Acc 90.44%, N 607, Test Acc 86.84%, Bal acc 84.38%
+[27/70] 4077) LR 0.0000070, Loss: 0.173, Acc 91.93%, N 607, Test Acc 86.84%, Bal acc 85.12%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_27_4228
+[28/70] 4228) LR 0.0000068, Loss: 0.143, Acc 93.41%, N 607, Test Acc 87.50%, Bal acc 84.52%
+[29/70] 4379) LR 0.0000065, Loss: 0.165, Acc 93.25%, N 607, Test Acc 86.84%, Bal acc 85.86%
+[30/70] 4530) LR 0.0000063, Loss: 0.169, Acc 90.44%, N 607, Test Acc 86.84%, Bal acc 83.63%
+[31/70] 4681) LR 0.0000061, Loss: 0.129, Acc 93.08%, N 607, Test Acc 84.87%, Bal acc 81.70%
+[32/70] 4832) LR 0.0000059, Loss: 0.136, Acc 92.42%, N 607, Test Acc 87.50%, Bal acc 86.01%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_32_4983
+[33/70] 4983) LR 0.0000057, Loss: 0.140, Acc 91.93%, N 607, Test Acc 89.47%, Bal acc 88.32%
+[34/70] 5134) LR 0.0000054, Loss: 0.138, Acc 92.92%, N 607, Test Acc 88.16%, Bal acc 86.90%
+[35/70] 5285) LR 0.0000052, Loss: 0.130, Acc 92.92%, N 607, Test Acc 86.84%, Bal acc 83.26%
+[36/70] 5436) LR 0.0000050, Loss: 0.129, Acc 93.08%, N 607, Test Acc 84.21%, Bal acc 81.18%
+[37/70] 5587) LR 0.0000048, Loss: 0.118, Acc 93.90%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[38/70] 5738) LR 0.0000046, Loss: 0.137, Acc 92.92%, N 607, Test Acc 86.18%, Bal acc 85.71%
+[39/70] 5889) LR 0.0000043, Loss: 0.109, Acc 94.89%, N 607, Test Acc 85.53%, Bal acc 84.08%
+[40/70] 6040) LR 0.0000041, Loss: 0.122, Acc 93.57%, N 607, Test Acc 86.18%, Bal acc 83.85%
+[41/70] 6191) LR 0.0000039, Loss: 0.118, Acc 93.41%, N 607, Test Acc 88.16%, Bal acc 85.42%
+[42/70] 6342) LR 0.0000037, Loss: 0.108, Acc 94.07%, N 607, Test Acc 87.50%, Bal acc 84.90%
+[43/70] 6493) LR 0.0000035, Loss: 0.107, Acc 95.22%, N 607, Test Acc 87.50%, Bal acc 86.38%
+[44/70] 6644) LR 0.0000032, Loss: 0.139, Acc 93.90%, N 607, Test Acc 85.53%, Bal acc 81.47%
+[45/70] 6795) LR 0.0000030, Loss: 0.107, Acc 94.89%, N 607, Test Acc 87.50%, Bal acc 86.38%
+[46/70] 6946) LR 0.0000028, Loss: 0.106, Acc 94.89%, N 607, Test Acc 86.84%, Bal acc 84.75%
+[47/70] 7097) LR 0.0000026, Loss: 0.101, Acc 95.22%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[48/70] 7248) LR 0.0000024, Loss: 0.083, Acc 96.54%, N 607, Test Acc 87.50%, Bal acc 86.01%
+[49/70] 7399) LR 0.0000022, Loss: 0.081, Acc 96.21%, N 607, Test Acc 85.53%, Bal acc 82.96%
+[50/70] 7550) LR 0.0000021, Loss: 0.104, Acc 94.23%, N 607, Test Acc 86.84%, Bal acc 84.00%
+[51/70] 7701) LR 0.0000019, Loss: 0.106, Acc 95.22%, N 607, Test Acc 88.16%, Bal acc 86.53%
+[52/70] 7852) LR 0.0000017, Loss: 0.098, Acc 95.88%, N 607, Test Acc 86.84%, Bal acc 83.63%
+[53/70] 8003) LR 0.0000015, Loss: 0.095, Acc 95.55%, N 607, Test Acc 86.18%, Bal acc 83.48%
+[54/70] 8154) LR 0.0000014, Loss: 0.098, Acc 95.39%, N 607, Test Acc 86.84%, Bal acc 84.75%
+[55/70] 8305) LR 0.0000012, Loss: 0.095, Acc 95.72%, N 607, Test Acc 86.84%, Bal acc 84.75%
+[56/70] 8456) LR 0.0000011, Loss: 0.064, Acc 96.38%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[57/70] 8607) LR 0.0000010, Loss: 0.082, Acc 95.72%, N 607, Test Acc 85.53%, Bal acc 83.33%
+[58/70] 8758) LR 0.0000008, Loss: 0.080, Acc 95.55%, N 607, Test Acc 85.53%, Bal acc 84.08%
+[59/70] 8909) LR 0.0000007, Loss: 0.116, Acc 94.40%, N 607, Test Acc 85.53%, Bal acc 83.71%
+[60/70] 9060) LR 0.0000006, Loss: 0.084, Acc 95.55%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[61/70] 9211) LR 0.0000005, Loss: 0.077, Acc 96.54%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[62/70] 9362) LR 0.0000004, Loss: 0.069, Acc 96.54%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[63/70] 9513) LR 0.0000003, Loss: 0.070, Acc 96.54%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[64/70] 9664) LR 0.0000002, Loss: 0.077, Acc 96.38%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[65/70] 9815) LR 0.0000002, Loss: 0.066, Acc 96.54%, N 607, Test Acc 86.18%, Bal acc 84.23%
+[66/70] 9966) LR 0.0000001, Loss: 0.081, Acc 95.88%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[67/70] 10117) LR 0.0000001, Loss: 0.077, Acc 96.71%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[68/70] 10268) LR 0.0000000, Loss: 0.073, Acc 95.72%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[69/70] 10419) LR 0.0000000, Loss: 0.078, Acc 95.72%, N 607, Test Acc 86.84%, Bal acc 85.12%
+[70/70] 10570) LR 0.0000000, Loss: 0.079, Acc 96.54%, N 607, Test Acc 86.84%, Bal acc 85.12%
+BEST_MODEL_ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_2_032_004983.pth.tar  found and loaded.
+TESTING: Acc 89.47%, Bal ACC 88.32%, AUC 93.79%, F1 88.60%, SEN 83.93%, SPE 92.71%
+Fold 3: 
+Train: 607, Test: 152
+Train balance: Group
+CN    383
+AD    224
+Name: count, dtype: int64
+Test balance: Group
+CN    95
+AD    57
+Name: count, dtype: int64
+760 nii files found.
+Train dataset len: 607
+Test dataset len: 152
+Number of classes to be used: ['CN', 'AD'], 2
+Train labels ratio: {'CN': 383, 'AD': 224}, Test labels ratio: {'CN': 95, 'AD': 57}
+Train ratios (%): [63.1, 36.9], Test ratios (%): [62.5, 37.5]
+Model weights initialized
+Loaded pre-trained checkpoint from: ./ViT_B_pretrained_noaug_mae75_BRATS2023_IXI_OASIS3_seed_8456_999_077000.pth.tar
+['head.weight', 'head.bias']
+Num of parameters in the model: 88598786
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_0_151
+[1/70] 151) LR 0.0000100, Loss: 0.610, Acc 61.61%, N 607, Test Acc 62.50%, Bal acc 50.00%
+[2/70] 302) LR 0.0000100, Loss: 0.573, Acc 64.91%, N 607, Test Acc 62.50%, Bal acc 50.00%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_2_453
+[3/70] 453) LR 0.0000100, Loss: 0.548, Acc 65.73%, N 607, Test Acc 63.82%, Bal acc 51.75%
+[4/70] 604) LR 0.0000100, Loss: 0.516, Acc 69.36%, N 607, Test Acc 63.16%, Bal acc 50.88%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_4_755
+[5/70] 755) LR 0.0000099, Loss: 0.475, Acc 71.66%, N 607, Test Acc 75.66%, Bal acc 68.60%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_5_906
+[6/70] 906) LR 0.0000099, Loss: 0.470, Acc 72.82%, N 607, Test Acc 76.32%, Bal acc 70.53%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_6_1057
+[7/70] 1057) LR 0.0000098, Loss: 0.430, Acc 77.10%, N 607, Test Acc 79.61%, Bal acc 75.26%
+[8/70] 1208) LR 0.0000098, Loss: 0.435, Acc 74.79%, N 607, Test Acc 65.79%, Bal acc 69.47%
+[9/70] 1359) LR 0.0000097, Loss: 0.411, Acc 78.09%, N 607, Test Acc 77.63%, Bal acc 76.14%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_9_1510
+[10/70] 1510) LR 0.0000096, Loss: 0.381, Acc 78.42%, N 607, Test Acc 80.92%, Bal acc 77.72%
+[11/70] 1661) LR 0.0000095, Loss: 0.352, Acc 81.55%, N 607, Test Acc 80.26%, Bal acc 77.54%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_11_1812
+[12/70] 1812) LR 0.0000094, Loss: 0.303, Acc 82.37%, N 607, Test Acc 83.55%, Bal acc 78.77%
+[13/70] 1963) LR 0.0000093, Loss: 0.318, Acc 82.70%, N 607, Test Acc 81.58%, Bal acc 80.35%
+[14/70] 2114) LR 0.0000092, Loss: 0.251, Acc 86.49%, N 607, Test Acc 81.58%, Bal acc 80.70%
+[15/70] 2265) LR 0.0000090, Loss: 0.263, Acc 86.66%, N 607, Test Acc 83.55%, Bal acc 81.93%
+[16/70] 2416) LR 0.0000089, Loss: 0.271, Acc 85.34%, N 607, Test Acc 79.61%, Bal acc 79.12%
+[17/70] 2567) LR 0.0000088, Loss: 0.218, Acc 87.81%, N 607, Test Acc 80.92%, Bal acc 81.23%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_17_2718
+[18/70] 2718) LR 0.0000086, Loss: 0.254, Acc 88.30%, N 607, Test Acc 85.53%, Bal acc 82.81%
+[19/70] 2869) LR 0.0000085, Loss: 0.275, Acc 85.17%, N 607, Test Acc 84.21%, Bal acc 81.75%
+[20/70] 3020) LR 0.0000083, Loss: 0.237, Acc 88.14%, N 607, Test Acc 82.89%, Bal acc 80.35%
+[21/70] 3171) LR 0.0000081, Loss: 0.212, Acc 88.80%, N 607, Test Acc 81.58%, Bal acc 81.40%
+[22/70] 3322) LR 0.0000079, Loss: 0.198, Acc 89.13%, N 607, Test Acc 84.21%, Bal acc 83.86%
+[23/70] 3473) LR 0.0000078, Loss: 0.193, Acc 90.77%, N 607, Test Acc 79.61%, Bal acc 81.58%
+[24/70] 3624) LR 0.0000076, Loss: 0.170, Acc 91.76%, N 607, Test Acc 85.53%, Bal acc 84.56%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_24_3775
+[25/70] 3775) LR 0.0000074, Loss: 0.203, Acc 89.79%, N 607, Test Acc 86.18%, Bal acc 85.44%
+[26/70] 3926) LR 0.0000072, Loss: 0.184, Acc 90.12%, N 607, Test Acc 85.53%, Bal acc 80.70%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_26_4077
+[27/70] 4077) LR 0.0000070, Loss: 0.188, Acc 90.12%, N 607, Test Acc 88.16%, Bal acc 84.21%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_27_4228
+[28/70] 4228) LR 0.0000068, Loss: 0.157, Acc 92.09%, N 607, Test Acc 90.13%, Bal acc 86.84%
+[29/70] 4379) LR 0.0000065, Loss: 0.153, Acc 91.76%, N 607, Test Acc 88.82%, Bal acc 85.79%
+[30/70] 4530) LR 0.0000063, Loss: 0.171, Acc 91.76%, N 607, Test Acc 87.50%, Bal acc 84.39%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_30_4681
+[31/70] 4681) LR 0.0000061, Loss: 0.116, Acc 94.73%, N 607, Test Acc 90.79%, Bal acc 87.72%
+[32/70] 4832) LR 0.0000059, Loss: 0.159, Acc 91.43%, N 607, Test Acc 88.16%, Bal acc 84.21%
+[33/70] 4983) LR 0.0000057, Loss: 0.126, Acc 93.08%, N 607, Test Acc 83.55%, Bal acc 83.33%
+[34/70] 5134) LR 0.0000054, Loss: 0.101, Acc 94.40%, N 607, Test Acc 84.87%, Bal acc 83.33%
+[35/70] 5285) LR 0.0000052, Loss: 0.157, Acc 92.42%, N 607, Test Acc 86.18%, Bal acc 84.74%
+[36/70] 5436) LR 0.0000050, Loss: 0.146, Acc 93.08%, N 607, Test Acc 85.53%, Bal acc 83.16%
+[37/70] 5587) LR 0.0000048, Loss: 0.140, Acc 92.59%, N 607, Test Acc 88.16%, Bal acc 84.56%
+[38/70] 5738) LR 0.0000046, Loss: 0.137, Acc 93.74%, N 607, Test Acc 88.82%, Bal acc 87.19%
+[39/70] 5889) LR 0.0000043, Loss: 0.116, Acc 94.23%, N 607, Test Acc 88.82%, Bal acc 86.14%
+[40/70] 6040) LR 0.0000041, Loss: 0.141, Acc 92.42%, N 607, Test Acc 88.16%, Bal acc 86.67%
+[41/70] 6191) LR 0.0000039, Loss: 0.124, Acc 92.92%, N 607, Test Acc 88.82%, Bal acc 86.84%
+[42/70] 6342) LR 0.0000037, Loss: 0.108, Acc 94.07%, N 607, Test Acc 88.16%, Bal acc 87.02%
+[43/70] 6493) LR 0.0000035, Loss: 0.082, Acc 96.21%, N 607, Test Acc 88.82%, Bal acc 87.19%
+[44/70] 6644) LR 0.0000032, Loss: 0.090, Acc 95.06%, N 607, Test Acc 88.82%, Bal acc 86.49%
+[45/70] 6795) LR 0.0000030, Loss: 0.092, Acc 95.39%, N 607, Test Acc 88.82%, Bal acc 86.49%
+[46/70] 6946) LR 0.0000028, Loss: 0.125, Acc 93.74%, N 607, Test Acc 88.82%, Bal acc 87.19%
+[47/70] 7097) LR 0.0000026, Loss: 0.093, Acc 95.39%, N 607, Test Acc 88.16%, Bal acc 86.67%
+[48/70] 7248) LR 0.0000024, Loss: 0.115, Acc 93.74%, N 607, Test Acc 86.18%, Bal acc 85.09%
+[49/70] 7399) LR 0.0000022, Loss: 0.084, Acc 96.38%, N 607, Test Acc 86.18%, Bal acc 84.74%
+[50/70] 7550) LR 0.0000021, Loss: 0.103, Acc 94.89%, N 607, Test Acc 87.50%, Bal acc 85.44%
+[51/70] 7701) LR 0.0000019, Loss: 0.103, Acc 93.25%, N 607, Test Acc 86.18%, Bal acc 84.39%
+[52/70] 7852) LR 0.0000017, Loss: 0.084, Acc 95.88%, N 607, Test Acc 85.53%, Bal acc 84.21%
+[53/70] 8003) LR 0.0000015, Loss: 0.056, Acc 97.69%, N 607, Test Acc 84.87%, Bal acc 83.68%
+[54/70] 8154) LR 0.0000014, Loss: 0.110, Acc 94.73%, N 607, Test Acc 87.50%, Bal acc 85.79%
+[55/70] 8305) LR 0.0000012, Loss: 0.081, Acc 95.72%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[56/70] 8456) LR 0.0000011, Loss: 0.085, Acc 95.39%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[57/70] 8607) LR 0.0000010, Loss: 0.080, Acc 95.22%, N 607, Test Acc 85.53%, Bal acc 84.91%
+[58/70] 8758) LR 0.0000008, Loss: 0.067, Acc 96.38%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[59/70] 8909) LR 0.0000007, Loss: 0.075, Acc 95.55%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[60/70] 9060) LR 0.0000006, Loss: 0.101, Acc 95.22%, N 607, Test Acc 86.84%, Bal acc 85.61%
+[61/70] 9211) LR 0.0000005, Loss: 0.078, Acc 96.54%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[62/70] 9362) LR 0.0000004, Loss: 0.065, Acc 96.71%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[63/70] 9513) LR 0.0000003, Loss: 0.053, Acc 97.03%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[64/70] 9664) LR 0.0000002, Loss: 0.075, Acc 95.55%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[65/70] 9815) LR 0.0000002, Loss: 0.080, Acc 96.38%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[66/70] 9966) LR 0.0000001, Loss: 0.095, Acc 95.72%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[67/70] 10117) LR 0.0000001, Loss: 0.083, Acc 96.05%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[68/70] 10268) LR 0.0000000, Loss: 0.074, Acc 95.88%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[69/70] 10419) LR 0.0000000, Loss: 0.069, Acc 96.21%, N 607, Test Acc 86.84%, Bal acc 85.26%
+[70/70] 10570) LR 0.0000000, Loss: 0.072, Acc 96.38%, N 607, Test Acc 86.84%, Bal acc 85.26%
+BEST_MODEL_ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_3_030_004681.pth.tar  found and loaded.
+TESTING: Acc 90.79%, Bal ACC 87.72%, AUC 90.53%, F1 89.57%, SEN 75.44%, SPE 100.00%
+Fold 4: 
+Train: 608, Test: 151
+Train balance: Group
+CN    383
+AD    225
+Name: count, dtype: int64
+Test balance: Group
+CN    95
+AD    56
+Name: count, dtype: int64
+760 nii files found.
+Train dataset len: 608
+Test dataset len: 151
+Number of classes to be used: ['CN', 'AD'], 2
+Train labels ratio: {'CN': 383, 'AD': 225}, Test labels ratio: {'CN': 95, 'AD': 56}
+Train ratios (%): [62.99, 37.01], Test ratios (%): [62.91, 37.09]
+Model weights initialized
+Loaded pre-trained checkpoint from: ./ViT_B_pretrained_noaug_mae75_BRATS2023_IXI_OASIS3_seed_8456_999_077000.pth.tar
+['head.weight', 'head.bias']
+Num of parameters in the model: 88598786
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_0_152
+[1/70] 152) LR 0.0000100, Loss: 0.600, Acc 62.66%, N 608, Test Acc 62.91%, Bal acc 50.00%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_1_304
+[2/70] 304) LR 0.0000100, Loss: 0.578, Acc 63.65%, N 608, Test Acc 64.24%, Bal acc 51.79%
+[3/70] 456) LR 0.0000100, Loss: 0.547, Acc 65.79%, N 608, Test Acc 63.58%, Bal acc 50.89%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_3_608
+[4/70] 608) LR 0.0000100, Loss: 0.528, Acc 68.91%, N 608, Test Acc 69.54%, Bal acc 58.93%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_4_760
+[5/70] 760) LR 0.0000099, Loss: 0.483, Acc 73.03%, N 608, Test Acc 74.83%, Bal acc 71.20%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_5_912
+[6/70] 912) LR 0.0000099, Loss: 0.447, Acc 74.84%, N 608, Test Acc 76.16%, Bal acc 71.52%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_6_1064
+[7/70] 1064) LR 0.0000098, Loss: 0.433, Acc 77.47%, N 608, Test Acc 78.81%, Bal acc 73.99%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_7_1216
+[8/70] 1216) LR 0.0000098, Loss: 0.388, Acc 78.62%, N 608, Test Acc 81.46%, Bal acc 80.50%
+[9/70] 1368) LR 0.0000097, Loss: 0.390, Acc 79.44%, N 608, Test Acc 73.51%, Bal acc 65.02%
+[10/70] 1520) LR 0.0000096, Loss: 0.338, Acc 83.22%, N 608, Test Acc 78.15%, Bal acc 77.87%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_10_1672
+[11/70] 1672) LR 0.0000095, Loss: 0.349, Acc 81.74%, N 608, Test Acc 83.44%, Bal acc 79.14%
+[12/70] 1824) LR 0.0000094, Loss: 0.316, Acc 83.39%, N 608, Test Acc 78.81%, Bal acc 73.26%
+[13/70] 1976) LR 0.0000093, Loss: 0.273, Acc 87.34%, N 608, Test Acc 76.16%, Bal acc 69.32%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_13_2128
+[14/70] 2128) LR 0.0000092, Loss: 0.270, Acc 88.16%, N 608, Test Acc 85.43%, Bal acc 84.02%
+[15/70] 2280) LR 0.0000090, Loss: 0.263, Acc 87.83%, N 608, Test Acc 80.13%, Bal acc 76.15%
+[16/70] 2432) LR 0.0000089, Loss: 0.277, Acc 85.86%, N 608, Test Acc 84.11%, Bal acc 81.50%
+[17/70] 2584) LR 0.0000088, Loss: 0.256, Acc 87.66%, N 608, Test Acc 82.12%, Bal acc 78.09%
+[18/70] 2736) LR 0.0000086, Loss: 0.213, Acc 90.95%, N 608, Test Acc 82.78%, Bal acc 78.98%
+[19/70] 2888) LR 0.0000085, Loss: 0.255, Acc 86.84%, N 608, Test Acc 82.12%, Bal acc 78.09%
+[20/70] 3040) LR 0.0000083, Loss: 0.202, Acc 91.78%, N 608, Test Acc 82.78%, Bal acc 78.25%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_20_3192
+[21/70] 3192) LR 0.0000081, Loss: 0.203, Acc 89.97%, N 608, Test Acc 86.75%, Bal acc 82.88%
+[22/70] 3344) LR 0.0000079, Loss: 0.201, Acc 90.46%, N 608, Test Acc 82.78%, Bal acc 77.52%
+[23/70] 3496) LR 0.0000078, Loss: 0.176, Acc 91.94%, N 608, Test Acc 86.09%, Bal acc 84.55%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_23_3648
+[24/70] 3648) LR 0.0000076, Loss: 0.201, Acc 90.46%, N 608, Test Acc 88.74%, Bal acc 87.02%
+[25/70] 3800) LR 0.0000074, Loss: 0.181, Acc 91.12%, N 608, Test Acc 86.75%, Bal acc 85.44%
+[26/70] 3952) LR 0.0000072, Loss: 0.158, Acc 91.28%, N 608, Test Acc 86.09%, Bal acc 83.45%
+[27/70] 4104) LR 0.0000070, Loss: 0.177, Acc 91.28%, N 608, Test Acc 86.75%, Bal acc 83.61%
+[28/70] 4256) LR 0.0000068, Loss: 0.144, Acc 93.75%, N 608, Test Acc 84.11%, Bal acc 84.07%
+[29/70] 4408) LR 0.0000065, Loss: 0.168, Acc 91.94%, N 608, Test Acc 88.08%, Bal acc 86.13%
+[30/70] 4560) LR 0.0000063, Loss: 0.139, Acc 93.26%, N 608, Test Acc 85.43%, Bal acc 83.29%
+[31/70] 4712) LR 0.0000061, Loss: 0.169, Acc 92.43%, N 608, Test Acc 83.44%, Bal acc 79.51%
+[32/70] 4864) LR 0.0000059, Loss: 0.131, Acc 93.91%, N 608, Test Acc 82.12%, Bal acc 76.99%
+[33/70] 5016) LR 0.0000057, Loss: 0.156, Acc 92.76%, N 608, Test Acc 82.12%, Bal acc 76.63%
+[34/70] 5168) LR 0.0000054, Loss: 0.142, Acc 93.75%, N 608, Test Acc 88.74%, Bal acc 86.65%
+[35/70] 5320) LR 0.0000052, Loss: 0.126, Acc 93.42%, N 608, Test Acc 87.42%, Bal acc 86.33%
+[36/70] 5472) LR 0.0000050, Loss: 0.128, Acc 93.26%, N 608, Test Acc 87.42%, Bal acc 85.97%
+[37/70] 5624) LR 0.0000048, Loss: 0.115, Acc 94.08%, N 608, Test Acc 78.81%, Bal acc 71.80%
+[38/70] 5776) LR 0.0000046, Loss: 0.121, Acc 94.74%, N 608, Test Acc 82.78%, Bal acc 83.02%
+[39/70] 5928) LR 0.0000043, Loss: 0.115, Acc 95.39%, N 608, Test Acc 86.75%, Bal acc 83.61%
+Best model saved: ./checkpoints/ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_39_6080
+[40/70] 6080) LR 0.0000041, Loss: 0.142, Acc 93.42%, N 608, Test Acc 89.40%, Bal acc 87.55%
+[41/70] 6232) LR 0.0000039, Loss: 0.101, Acc 95.23%, N 608, Test Acc 88.74%, Bal acc 87.02%
+[42/70] 6384) LR 0.0000037, Loss: 0.118, Acc 95.07%, N 608, Test Acc 87.42%, Bal acc 84.87%
+[43/70] 6536) LR 0.0000035, Loss: 0.096, Acc 95.72%, N 608, Test Acc 89.40%, Bal acc 87.18%
+[44/70] 6688) LR 0.0000032, Loss: 0.112, Acc 94.57%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[45/70] 6840) LR 0.0000030, Loss: 0.099, Acc 96.05%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[46/70] 6992) LR 0.0000028, Loss: 0.110, Acc 95.07%, N 608, Test Acc 88.08%, Bal acc 86.13%
+[47/70] 7144) LR 0.0000026, Loss: 0.070, Acc 96.88%, N 608, Test Acc 86.75%, Bal acc 85.08%
+[48/70] 7296) LR 0.0000024, Loss: 0.091, Acc 95.39%, N 608, Test Acc 86.75%, Bal acc 85.08%
+[49/70] 7448) LR 0.0000022, Loss: 0.078, Acc 96.22%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[50/70] 7600) LR 0.0000021, Loss: 0.097, Acc 96.22%, N 608, Test Acc 86.75%, Bal acc 86.17%
+[51/70] 7752) LR 0.0000019, Loss: 0.100, Acc 95.56%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[52/70] 7904) LR 0.0000017, Loss: 0.091, Acc 96.88%, N 608, Test Acc 87.42%, Bal acc 84.14%
+[53/70] 8056) LR 0.0000015, Loss: 0.085, Acc 95.56%, N 608, Test Acc 86.09%, Bal acc 84.55%
+[54/70] 8208) LR 0.0000014, Loss: 0.074, Acc 96.71%, N 608, Test Acc 87.42%, Bal acc 86.33%
+[55/70] 8360) LR 0.0000012, Loss: 0.073, Acc 96.88%, N 608, Test Acc 85.43%, Bal acc 82.92%
+[56/70] 8512) LR 0.0000011, Loss: 0.088, Acc 96.88%, N 608, Test Acc 85.43%, Bal acc 82.92%
+[57/70] 8664) LR 0.0000010, Loss: 0.071, Acc 97.37%, N 608, Test Acc 85.43%, Bal acc 81.82%
+[58/70] 8816) LR 0.0000008, Loss: 0.063, Acc 96.88%, N 608, Test Acc 85.43%, Bal acc 81.82%
+[59/70] 8968) LR 0.0000007, Loss: 0.069, Acc 97.70%, N 608, Test Acc 85.43%, Bal acc 82.19%
+[60/70] 9120) LR 0.0000006, Loss: 0.079, Acc 96.38%, N 608, Test Acc 87.42%, Bal acc 85.23%
+[61/70] 9272) LR 0.0000005, Loss: 0.067, Acc 96.55%, N 608, Test Acc 87.42%, Bal acc 85.23%
+[62/70] 9424) LR 0.0000004, Loss: 0.055, Acc 98.19%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[63/70] 9576) LR 0.0000003, Loss: 0.062, Acc 97.20%, N 608, Test Acc 88.08%, Bal acc 86.49%
+[64/70] 9728) LR 0.0000002, Loss: 0.059, Acc 97.37%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[65/70] 9880) LR 0.0000002, Loss: 0.071, Acc 97.53%, N 608, Test Acc 88.08%, Bal acc 86.13%
+[66/70] 10032) LR 0.0000001, Loss: 0.083, Acc 97.04%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[67/70] 10184) LR 0.0000001, Loss: 0.072, Acc 97.53%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[68/70] 10336) LR 0.0000000, Loss: 0.080, Acc 96.05%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[69/70] 10488) LR 0.0000000, Loss: 0.080, Acc 96.05%, N 608, Test Acc 87.42%, Bal acc 85.60%
+[70/70] 10640) LR 0.0000000, Loss: 0.059, Acc 97.70%, N 608, Test Acc 87.42%, Bal acc 85.60%
+BEST_MODEL_ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_039_006080.pth.tar  found and loaded.
+TESTING: Acc 89.40%, Bal ACC 87.55%, AUC 93.35%, F1 88.37%, SEN 80.36%, SPE 94.74%
+
+========================================
+5-Fold Cross Validation Final Results (Mean ± Std):
+========================================
+Accuracy : 89.20 ± 1.29 %
+Bal Acc  : 87.48 ± 1.68 %
+AUC      : 92.74 ± 1.18 %
+F1-Score : 88.15 ± 1.44 %
+Sensitivity: 80.80 ± 5.37 %
+Specificity: 94.16 ± 3.40 %
+========================================
