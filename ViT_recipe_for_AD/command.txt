@@ -1,0 +1,18 @@
+MAE预训练：
+WANDB_MODE=offline python pretrain.py --config_file ./configs/config_pretrain.yaml --savename ADNI1_MAE_run1 --datasets_to_use ADNI1 --mode pretrain --model mae --seed 42 --use_aug --devices 0
+
+fine-tune分类训练：
+WANDB_MODE=offline python kfold_train.py \
+    --config_file ./configs/config.yaml \
+    --savename ADNI1_Finetune \
+    --classes_to_use CN AD \
+    --mode finetune \
+    --source ADNI1 \
+    --target ADNI1 \
+    --epochs 70 \
+    --batch_size 4 \
+    --lr 0.00001 \
+    --use_aug \
+    --seed 42 \
+    --devices 0 \
+    --use_pretrained ./ViT_B_pretrained_noaug_mae75_BRATS2023_IXI_OASIS3_seed_8456_999_077000.pth.tar
