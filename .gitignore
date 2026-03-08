@@ -15,7 +15,11 @@ data/
 *.xlsx
 *.pt
 *.pth
+*.pth.tar
+*.nii
+*.tar
 *.pkl
+checkpoints/
 
 # Logs
 logs/
