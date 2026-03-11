@@ -1003,3 +1003,13 @@ F1-Score : 88.15 ± 1.44 %
 Sensitivity: 80.80 ± 5.37 %
 Specificity: 94.16 ± 3.40 %
 ========================================
+
+ 正在加载 3D ViT 视觉大脑...
+Traceback (most recent call last):
+  File "/root/AD_project/ai_doctor.py", line 64, in <module>
+    vit_model, config = load_vit_model()
+  File "/root/AD_project/ai_doctor.py", line 45, in load_vit_model
+    model = make_vanilla_model(cfg, args)
+  File "/root/AD_project/ViT_recipe_for_AD/models/make_models.py", line 56, in make_vanilla_model
+    assert cfg['MODEL']['TYPE'] + '_' + args.mode in _models_factory.keys(), cfg['MODEL']['TYPE'] + '_' + args.mode + ' not in the model factory list'
+AttributeError: 'Namespace' object has no attribute 'mode'

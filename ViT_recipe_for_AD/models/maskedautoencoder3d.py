@@ -15,7 +15,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from .vit3d import PatchEmbed3D, Block
-from utils.utils import get_3d_sincos_pos_embed
+from ..utils.utils import get_3d_sincos_pos_embed
 
 
 
