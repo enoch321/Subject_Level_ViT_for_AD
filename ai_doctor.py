@@ -13,11 +13,11 @@ import argparse
 MODEL_WEIGHT_PATH = "/root/AD_project/ViT_recipe_for_AD/checkpoints/BEST_MODEL_ADNI1_Finetune_1_ADNI1_mode_finetune_seed_42_fold_4_039_006080.pth.tar"
 CONFIG_PATH = "/root/AD_project/ViT_recipe_for_AD/configs/config.yaml"
 
-# 大模型 API 配置 (以 DeepSeek/通义千问/OpenAI 为例，这里默认使用 OpenAI 兼容格式)
-# 如果你用的是 OpenAI，base_url 不需要填；如果是其他国产模型，请填入他们提供的 base_url
-LLM_API_KEY = "sk-nuywSc8Au6Q5RYLauFakhJjgTBHljuNp6FHGH8iXyvQHmuyy"
-LLM_BASE_URL = "https://xiaoai.plus/v1" # 例如这是 DeepSeek 的接口，改成你用的模型的接口
-LLM_MODEL_NAME = "gpt-3.5-turbo" # 替换为你的大模型名称，如 gpt-4o, qwen-max, glm-4 等
+# 大模型 API 配置
+# 如果你用的是 OpenAI，base_url 不需要填；如果是其他模型，请填入他们提供的 base_url
+LLM_API_KEY = "sk-xxx"
+LLM_BASE_URL = "https://xxx/v1" # 所用模型的接口
+LLM_MODEL_NAME = "gpt-3.5-turbo" # 替换为你的大模型名称
 # =======================================================================
 
 # 初始化 LLM 客户端
